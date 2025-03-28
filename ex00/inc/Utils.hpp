@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   Utils.hpp                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: flmuller <flmuller@student.42perpignan.    +#+  +:+       +#+        */
+/*   By: flmuller <flmuller@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/03/03 15:42:34 by flmuller          #+#    #+#             */
-/*   Updated: 2025/03/03 15:56:32 by flmuller         ###   ########.fr       */
+/*   Updated: 2025/03/28 14:08:25 by flmuller         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,7 +19,7 @@
 template< typename T >
 void	swap(T & a, T & b)
 {
-	T const temp = b;
+	T temp = b;
 	b = a;
 	a = temp;
 }
